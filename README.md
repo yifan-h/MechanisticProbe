@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/License-MIT-blue.svg)]()
 [![arxiv](https://img.shields.io/badge/arXiv-2310.14491-b31b1b)](https://arxiv.org/abs/2310.14491)
-[![Dataset Download](https://img.shields.io/badge/Download-Datasets-green)](https://huggingface.co/datasets/yyyyifan/MechanisticProbe_ProofWriter_ARC)
+[![Dataset Download](https://img.shields.io/badge/HuggingFace-Datasets-green)](https://huggingface.co/datasets/yyyyifan/MechanisticProbe_ProofWriter_ARC)
 [![GitHub Project](https://img.shields.io/badge/GitHub-Project-orange)](https://github.com/yifan-h/MechanisticProbe)
 
 
@@ -20,9 +20,9 @@
 
 ![](./figures/rt_example_fig_final.jpg)
 > To answer the research question, we propose the **MechanisticProbe** to detect the reasoning trees inside LMs via the attention patterns. We run the analysis experiments on three reasoning tasks:
-  1. Probe GPT-2 on the synthetic task: finding the k-th smallest number from a number list;
-  2. Probe LLaMA on the synthetic task: ProofWriter;
-  3. Probe LLaMA on the real-world reasoning task: AI2 Reasoning Challenge (ARC).
+>  1. Probe GPT-2 on the synthetic task: finding the k-th smallest number from a number list;
+>  2. Probe LLaMA on the synthetic task: ProofWriter;
+>  3. Probe LLaMA on the real-world reasoning task: AI2 Reasoning Challenge (ARC).
 
 > The **MechanisticProbe** is quite simple composed of two **kNN classifiers**: 
 >> The first one is used to predict if the statement is useful or not for the reasoning task; 
