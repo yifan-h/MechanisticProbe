@@ -1,0 +1,1 @@
+python -u src/main.py --analysis_task probing_ksmallest --model_path gpt2
